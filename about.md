@@ -7,12 +7,13 @@
 ---
 
 ## Education
+<p styles='text-aligh:left;'>
+<strong>Texas Tech University</strong>— <strong>Lubbock</strong>, TX<span style="float:right,">Expected Graduation: May 2026
+<span>  
+</p>
+- Bachelor of Science in Mathematics and Computer Science**  
 
-**Texas Tech University** — *Lubbock, TX*  
-**Bachelor of Science in Mathematics and Computer Science**  
-*Expected Graduation: May 2026*
-
-- **Dean’s List** | **GPA:** 3.7  
+- **Dean’s List** **GPA:** 3.7  
 - **Courses:** Software Engineering, Operating Systems, Parallel Programming, Algorithms and Data Structures, Mathematical Computing, Mathematical Statistics, Numerical Analysis  
 - **Awards:**  
   - Presidential Transfer Scholarship ($9,000, academic achievement)  
