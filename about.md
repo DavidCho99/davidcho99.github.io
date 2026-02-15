@@ -1,101 +1,80 @@
----
-layout: page
-title: About Me
----
+# David Cho
+
+📞 **(325) 710-8711**  
+📧 **davidgs.cho@gmail.com**  
+🔗 **LinkedIn:** [linkedin.com/in/davidgs-cho](https://www.linkedin.com/in/davidgs-cho/)
 
 ---
-
-# Gwangseong Cho
-
-- Email : cho.gwangseong@gmail.com
-- LinkedIn : www.linkedin.com/in/gwangseong-cho
-- Address : Lubbock, Tx 79401
 
 ## Education
 
-<p style="text-align:left;">
-    <strong>Texas Tech University</strong>, Lubbock, Texas 
-    <span style="float:right;">
-        Expected Graduation May 2026
-    </span>
-    <br>
-    <span style="float:right;">
-        <strong>GPA</strong>: 3.74/4.0, Honor’s list of Fall 2023
-    </span>
-<em>Bachelor of Science in Mathematics and Computer Science</em>
-<br>
-<span>Relevant Coursework: Data Structure and Algorithms, Analysis Algorithms, Data Science Concentration</span>
-</p>
+**Texas Tech University** — *Lubbock, TX*  
+**Bachelor of Science in Mathematics and Computer Science**  
+*Expected Graduation: May 2026*
 
-<p style="text-align:left;">
-    <strong>Angelo State Unversity</strong>, San Angelo, Texas 
-    <span style="float:right;">
-        August 2018 ~ May 2023
-    </span>
-    <br>
-    <span style="float:right;">
-        <strong>GPA</strong>: GPA: 3.7/4.0, Dean’s list for 4 semesters
-    </span>
-    <em>Bachelor of Science in Mathematics and Computer Science</em>
-</p>
+- **Dean’s List** | **GPA:** 3.7  
+- **Courses:** Software Engineering, Operating Systems, Parallel Programming, Algorithms and Data Structures, Mathematical Computing, Mathematical Statistics, Numerical Analysis  
+- **Awards:**  
+  - Presidential Transfer Scholarship ($9,000, academic achievement)  
+  - Emmett Hazlewood Scholarship ($1,500, mathematics excellence)  
+  - Gold Service Award (community impact)
+
+---
+
+## Technical Skills
+
+- **Languages:** Python, SQL  
+- **Developer Tools:** Git, VS Code, Docker  
+- **Libraries / Frameworks:** Pandas, NumPy, Scikit-Learn, Matplotlib, Plotly, Pgmpy, PyTorch  
+- **Mathematical Skills:** Bayesian Networks, Benford’s Law, Probabilistic Inference, Statistical Analysis, Deep Learning  
+
+---
 
 ## Experience
 
-<p style="text-align:left;">
-    <strong>Jane Park English</strong>, Seoul, Republic of Korea
-    <br> 
-    <em>Teaching assistant</em>
-    <span style="float:right;">
-    December 2021 – August 2022
-    </span>
-    <br>
-</p>
+### LAIM³ (AI in Medical Math Modeling Lab) — *Lubbock, TX* 
+ 
+**Bayesian Belief Network and Causal Inference Researcher**  
+*Feb 2025 – Present*
 
-- Reviewing with students individually and provide feedback.
-- Manages over 800 students and 4 classes with customer service.
-- Assists the lecturer with creating and delivering learning materials in a course.
+- Achieved **72.35% accuracy** and a **0.72 weighted F1-score** in predicting lung cancer survival rates by leading the development of a **Bayesian Belief Network** inference pipeline, trained on **174K records (90%)** and evaluated on **19K records (10%)** from a **193K-row** healthcare dataset  
+- Built an **LRU cache-powered** inference system for Bayesian Networks, enabling batch predictions without re-computing repeated evidence; reduced total computation time by approximately **67%** while maintaining predictive accuracy of **0.723**  
+- Presented and communicated complex probabilistic and **ML** results through **visualizations** and structured explanations, aligning stakeholders on insights and enabling **product-focused decisions**
 
-<p style="text-align:left;">
-    <strong>Republic of Korea Army</strong>, , Republic of Korea
-    <br> 
-    <em>Military Engineering Squad Leader</em>
-    <span style="float:right;">
-       September 2019 – April 2021
-    </span>
-    <br>
-</p>
+---
 
-- Oversee and execute senior commanders' and battalion's operational plans.
-- Fulfill 24-hour duties to ensure smooth operation of the Command Control Center and safety of soldiers and firearms.
-- supervises and manages other soldiers and first-line supervisors.
+### Department of Computer Science – Texas Tech University — *Lubbock, TX*  
+**Undergraduate Teaching Assistant**  
+*Aug 2024 – Present*
 
-## Involvement & Awards
+- **Selected** through faculty recommendation to serve as a CS Tutor; retained for **4 consecutive semesters** based on performance  
+- Mentored **100+ students** in core CS concepts, significantly improving problem-solving skills and conceptual understanding  
+- Provided practical debugging guidance and assignment feedback, strengthening analytical thinking and technical skills  
 
-<p style="text-align:left;">
-    <strong>World Vision South (Dream Leaders) </strong>
-    <br> 
-    <em>Volunteer and Participant</em>
-    <span style="float:right;">
-        March 2023 - December 2023
-    </span>
-    <br>
-</p>
+---
 
-- Mentoring students, volunteering in rural area for days, and receive $3800 as scholarship.
-- [YouTube interview video](https://www.youtube.com/watch?v=OH2tH9OfCHo&t=1m30s)
+## Projects
 
-<p style="text-align:left;">
-    <strong>Presidential Transfer Scholarship</strong> 
-    <span style="float:right;">
-        Fall 2023 – Spring 2024
-    </span>
-    <br>
-    Awarded Presidential Transfer Scholarship and receive $3000 as scholarship.
-</p>
+### **Lung Cancer Survival Predictor**  
+*Python | Pandas | Scikit-Learn | Pgmpy | NetworkX*
 
-## Skills
+- Developed a **predictive system** to estimate lung cancer survival rates for a **193K-row** healthcare dataset, supporting medical decision-making  
+- Utilized **Python** and **Pandas** for data preprocessing and feature engineering, **Scikit-Learn** for **ML pipelines** and **model evaluation**, and Bayesian Belief Networks for **probabilistic inference**
 
-- Technical Skills
-  - Adapted C/C++, Python , Java , LaTex
-- Certifications, Interests, Honors/Awards, or Languages
-  - Native Korean speaker; Fluent in English
+---
+
+### **Multi-Base Benford Analysis for Transaction Anomalies**  
+*Python | Pandas | NumPy | Benford’s Law*
+
+- Identified **4 agencies** with consistent multi-base nonconformity by applying Benford’s Law across numeric bases (10, 16, 8) to **600K+ real-world government purchase card transactions**, uncovering anomalies missed by standard decimal, hexadecimal, and octal analysis  
+
+---
+
+## Leadership
+
+### Republic of Korea Army — *Imsil, South Korea*  
+**Squad Leader (Sergeant)**  
+*Sept 2019 – April 2021*
+
+- Led and mentored a **10-member squad** within a **200-person battalion**, executing **10+ missions** in high-pressure environments while maintaining operational readiness and team cohesion  
+- Earned the **Company Commander’s Award** for demonstrated **leadership**, **adaptability**, and crisis management, consistently exceeding expectations in **dynamic** and **uncertain** conditions  
