@@ -8,7 +8,8 @@
 
 ## Education
 <p styles='text-aligh:left;'>
-<strong>Texas Tech University</strong>— <strong>Lubbock</strong>, TX<span style="float:right,">Expected Graduation: May 2026
+<strong>Texas Tech University</strong>— <strong>Lubbock</strong>, TX
+<span style="float:right;">Expected Graduation: May 2026
 </span>  
 </p>
 
