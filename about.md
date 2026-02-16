@@ -9,8 +9,9 @@
 ## Education
 <p styles='text-aligh:left;'>
 <strong>Texas Tech University</strong>— <strong>Lubbock</strong>, TX<span style="float:right,">Expected Graduation: May 2026
-<span>  
+</span>  
 </p>
+
 - Bachelor of Science in Mathematics and Computer Science**  
 
 - **Dean’s List** **GPA:** 3.7  
