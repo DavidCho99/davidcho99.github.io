@@ -12,7 +12,7 @@
 </span>  
 </p>
 
-- Bachelor of Science in Mathematics and Computer Science**  
+**Bachelor of Science in Mathematics and Computer Science**
 
 - **Dean’s List** **GPA:** 3.7  
 - **Courses:** Software Engineering, Operating Systems, Parallel Programming, Algorithms and Data Structures, Mathematical Computing, Mathematical Statistics, Numerical Analysis  
