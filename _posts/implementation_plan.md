@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Bayesian Network"
+category: AI/ML
+author: Gwangseong Cho
+---
+
 # AIM3 Lab - Modular BBN Platform Guidelines
 
 ## Goal 
