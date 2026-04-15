@@ -10,7 +10,8 @@ layout: default
   <span class="post-tags">
     {% for tag in page.tags %}
     {% capture tag_name %}{{ tag }}{% endcapture %}
-    <a class="no-underline" href="/tag/{{ tag_name }}"><code
+    {% assign tag_slug = tag_name | slugize %}
+    <a class="no-underline" href="{{ '/tag/' | append: tag_slug | relative_url }}"><code
         class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
     {% endfor %}
   </span>

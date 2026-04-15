@@ -3,33 +3,46 @@ layout: default
 title: Home
 ---
 
+<div class="page">
+  <h1 class="page-title">{{ site.title }}</h1>
+  <p class="lead">{{ site.description }}</p>
+
+  <h2>Start Here</h2>
+  <ul>
+    <li><a href="{{ '/research/' | relative_url }}">Research (BBN / structure learning)</a></li>
+    <li><a href="{{ '/projects/' | relative_url }}">Projects (Benford, TTS, etc.)</a></li>
+    <li><a href="{{ '/learning/' | relative_url }}">Learning (ML math, econ math, LeetCode, Google Dev)</a></li>
+    <li><a href="{{ '/notes/' | relative_url }}">Notes (all posts)</a></li>
+    <li><a href="{{ '/resume/' | relative_url }}">Resume</a></li>
+  </ul>
+</div>
+
 <div class="posts">
+  <h2>Latest Notes</h2>
   {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
-  </div>
+    <div class="post">
+      <h3 class="post-title">
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </h3>
+      <span class="post-date">{{ post.date | date_to_string }}</span>
+      <div class="post-excerpt">
+        {{ post.excerpt }}
+      </div>
+    </div>
   {% endfor %}
 </div>
 
 <div class="pagination">
   {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
+    <a class="pagination-item older" href="{{ '/page' | append: paginator.next_page | relative_url }}">Older</a>
   {% else %}
     <span class="pagination-item older">Older</span>
   {% endif %}
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
+      <a class="pagination-item newer" href="{{ '/' | relative_url }}">Newer</a>
   {% else %}
-    <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
+    <a class="pagination-item newer" href="{{ '/page' | append: paginator.previous_page | relative_url }}">Newer</a>
   {% endif %}
   {% else %}
     <span class="pagination-item newer">Newer</span>

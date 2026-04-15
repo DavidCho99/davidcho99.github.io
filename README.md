@@ -1,25 +1,15 @@
-# Github.io Info
-Build with [Jekyll](http://jekyllrb.com) and [Hyde](https://github.com/poole/hyde) (jekyll theme)
-## Contents
+# davidgsCho.github.io
 
-- [Mathematics](#mathematics)
-- [Computer Science](#computerscience)
-- [Thoughts](#thoughts)
-- [Author](#author)
-- [License](#license)
+Portfolio + study notes built with [Jekyll](https://jekyllrb.com) using the [Hyde](https://github.com/poole/hyde) theme.
 
-## Mathematics
+## Sections
 
-## Computer Science
-
-## Thoughts
-
-## Author
-
-**Gwangseong Cho**
-- <https://github.com/gwangseongcho>
-
+- `/research/` — Bayesian networks / structure learning
+- `/projects/` — project writeups + demos (GitHub Pages)
+- `/learning/` — ML math, econ math, LeetCode, Google Dev notes
+- `/notes/` — posts index (and `/categories/`)
+- `/resume/` — resume
 
 ## License
 
-Open sourced under the [MIT license](LICENSE.md)
+MIT — see `LICENSE.md`.

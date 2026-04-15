@@ -14,22 +14,30 @@ highlighter: rouge
 # permalink:        pretty
 
 # Setup
-title: "Seong's Notes"
-tagline: ""
-description: ""
-url: https://gwangseongcho.github.io
+title: "David Cho"
+tagline: "Bayesian Networks · ML · Math"
+description: "Portfolio, projects, and study notes by David Cho."
+url: https://davidgsCho.github.io
 baseurl: ""
 
 author:
-  name: "Gwangseong Cho"
+  name: "David Cho"
+  email: "davidgs.cho@gmail.com"
 
 paginate: 10
 
 # Custom vars
 version: 2.1.0
 
-github:
-  repo: https://github.com/gwangseongcho/gwangseongcho.github.io
+github_username: davidgsCho
+repo_url: https://github.com/davidgsCho/davidgsCho.github.io
+
+nav_sections:
+  - Portfolio
+  - Research
+  - Projects
+  - Learning
+  - Notes
 
 plugins:
   - jekyll-paginate
@@ -37,4 +45,4 @@ plugins:
   - jekyll-commonmark-ghpages
 
 disqus:
-  shortname: gwangseongcho
+  shortname:

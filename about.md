@@ -1,3 +1,11 @@
+---
+layout: page
+title: Resume
+permalink: /resume/
+nav_section: Portfolio
+nav_order: 20
+---
+
 # David Cho
 
 📞 **(325) 710-8711**  
