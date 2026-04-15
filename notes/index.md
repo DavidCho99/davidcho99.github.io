@@ -10,8 +10,7 @@ description: "All notes and posts."
 This is the running log of study notes, class notes, and build journals.
 
 - Browse by category: [Categories]({{ '/categories/' | relative_url }})
-- RSS: [atom.xml]({{ '/atom.xml' | relative_url }})
-
+- 
 ## Recent posts
 
 <ul>
