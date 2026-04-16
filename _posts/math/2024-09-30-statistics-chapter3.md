@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Statistics Chapter 3
-category: Mathematics
+category: Math
 ---
 
 # Chapter 3: Discrete Random Variables and Their Probability Distributions

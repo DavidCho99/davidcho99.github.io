@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Statistics Chapter 7
-category: Mathematics
+category: Math
 ---
 
 # Chapter 7: Sampling Distributions

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Statistics Chapter 5
-category: Mathematics
+category: Math
 ---
 
 # Chapter 5: Multivariate Probability Distributions

@@ -1,9 +1,8 @@
 ---
-layout: page
-title: Text-to-Speech (TTS) Journal
-permalink: /projects/text-to-speech-journal/
-nav_exclude: true
-description: "Build log: how the TTS system works, decisions, failures, and improvements."
+layout: post
+title: "Text-to-Speech (TTS) Journal"
+category: Project
+tags: [tts, ml, audio]
 ---
 
 ## Goal

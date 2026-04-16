@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Statistics Chapter 4
-category: Mathematics
+category: Math
 ---
 
 # Chapter 4: Continuous Variables and Their Probability Distributions

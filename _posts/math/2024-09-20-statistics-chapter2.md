@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Statistics Chapter 2
-category: Mathematics
+category: Math
 ---
 
 # Chapter 2: Probability

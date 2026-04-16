@@ -4,25 +4,37 @@ title: Categories
 permalink: /categories/
 nav_section: Notes
 nav_order: 30
+description: "Posts grouped by category."
 ---
 
+{% assign sorted_categories = site.categories | sort %}
+
+<ul>
+  {% for category in sorted_categories %}
+    {% assign category_name = category[0] %}
+    {% assign category_slug = category_name | slugify %}
+    {% assign category_posts = category[1] | sort: "date" | reverse %}
+    <li><a href="#{{ category_slug }}">{{ category_name }}</a> <small>({{ category_posts | size }})</small></li>
+  {% endfor %}
+</ul>
 
 <div id="archives">
-{% for category in site.categories %}
-  <div class="archive-group">
-    {% capture category_name %}{{ category | first }}{% endcapture %}
-    <div id="#{{ category_name | slugize }}"></div>
-    <p></p>
+  {% for category in sorted_categories %}
+    {% assign category_name = category[0] %}
+    {% assign category_slug = category_name | slugify %}
+    {% assign category_posts = category[1] | sort: "date" | reverse %}
 
-    <h2 class="category-head">{{ category_name }}</h2>
-    <a name="{{ category_name | slugize }}"></a>
-    {% for post in site.categories[category_name] %}
-    <article class="recent-posts">
-      <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}} </a><small>[{{ post.date | date_to_string }}]</small></h4>
-    </article>
-    
-    {% endfor %}
-    <hr></hr>
-  </div>
-{% endfor %}
+    <div class="archive-group">
+      <h2 class="category-head" id="{{ category_slug }}">{{ category_name }} <small>({{ category_posts | size }})</small></h2>
+      {% for post in category_posts %}
+        <article class="recent-posts">
+          <h4>
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            <small>[{{ post.date | date_to_string }}]</small>
+          </h4>
+        </article>
+      {% endfor %}
+      <hr>
+    </div>
+  {% endfor %}
 </div>

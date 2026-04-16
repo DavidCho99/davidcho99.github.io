@@ -1,9 +1,8 @@
 ---
-layout: page
-title: Benford’s Law (Government Data)
-permalink: /projects/benford-government-data/
-nav_exclude: true
-description: "Multi-base Benford analysis for anomalies in government purchase card transactions."
+layout: post
+title: "Benford’s Law (Government Data)"
+category: Project
+tags: [benford, data, anomaly-detection]
 ---
 
 ## Summary

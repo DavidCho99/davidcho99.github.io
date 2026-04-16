@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Statistics Chapter 8
-category: Mathematics
+category: Math
 ---
 
 # Chapter 8: Estimation

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "AIM³ Lab: Modular BBN Platform Guidelines"
-category: Research
+category: Project
 tags: [bbn, structure-learning]
 ---
 

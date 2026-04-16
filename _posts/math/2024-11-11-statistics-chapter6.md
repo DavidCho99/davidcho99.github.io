@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Statistics Chapter 6
-category: Mathematics
+category: Math
 ---
 
 # Chapter 6: Functions of Random Variables

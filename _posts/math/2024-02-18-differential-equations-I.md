@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Differential Equations I
-category: Mathematics
+category: Math
+tags: [math, differential-equations]
 ---
 
 ## Introduction

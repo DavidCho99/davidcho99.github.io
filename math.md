@@ -1,0 +1,21 @@
+---
+layout: page
+title: Math
+permalink: /math/
+---
+
+{% assign math_posts = site.categories.Math | sort: "date" | reverse %}
+
+{% if math_posts and math_posts.size > 0 %}
+  <ul>
+    {% for post in math_posts %}
+      <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <small>({{ post.date | date_to_string }})</small>
+      </li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <p>No math posts yet.</p>
+{% endif %}
+

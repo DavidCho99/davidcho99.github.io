@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Differential Equations II
-category: Mathematics
+category: Math
+tags: [math, differential-equations, linear-algebra]
 ---
 
 # Pre-chapter: Linear Algebra Review

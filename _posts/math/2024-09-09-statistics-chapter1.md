@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Statistics Chapter 1
-category: Mathematics
+category: Math
 ---
 
 # Chapter 1: What Is Statistics?
@@ -151,4 +151,3 @@ The first chapter introduces the purpose and importance of statistics in address
    - Approximately $68\%$ of the data lies within $ \mu \pm \sigma $.
    - Approximately $95\%$ lies within $ \mu \pm 2\sigma $.
    - Almost all data lies within $ \mu \pm 3\sigma $.
-
