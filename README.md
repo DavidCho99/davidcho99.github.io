@@ -4,9 +4,8 @@ Portfolio + study notes built with [Jekyll](https://jekyllrb.com) using the [Hyd
 
 ## Sections
 
-- `/research/` — Bayesian networks / structure learning
 - `/projects/` — project writeups + demos (GitHub Pages)
-- `/learning/` — ML math, econ math, LeetCode, Google Dev notes
+- `/learning/` — ML math, econ math, LeetCode
 - `/notes/` — posts index (and `/categories/`)
 - `/resume/` — resume
 
