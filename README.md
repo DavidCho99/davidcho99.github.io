@@ -1,4 +1,4 @@
-# davidgsCho.github.io
+# davidcho99.github.io
 
 Portfolio + study notes built with [Jekyll](https://jekyllrb.com) using the [Hyde](https://github.com/poole/hyde) theme.
 
